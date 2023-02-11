@@ -11,6 +11,7 @@ import { ComponentsModule } from '../components/components.module';
 
 import { NgChartsModule } from 'ng2-charts';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -21,7 +22,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     ProgessComponent,
     Grafica1Component,
     PagesComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,
